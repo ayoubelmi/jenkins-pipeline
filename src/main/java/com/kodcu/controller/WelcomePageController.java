@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class WelcomePageController {
-
+// test
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String getPage(){
         return "index";
